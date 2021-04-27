@@ -1,0 +1,161 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+/*Full page*/
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #2d3436;
+	font-size: 87%;
+	font-family: 'Cairo', sans-serif;
+	line-height: 1.5;
+	text-align: center;
+}
+a{
+	transition: all .2s ease-in;
+}
+a:hover {
+	color: #d63031;
+	border-color: #d63031;
+}
+
+/*title and description*/
+#title{
+	margin-bottom: 20px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 6em;
+	color: #dfe6e9;
+}
+#description{
+	font-size: 1.07em;
+	color: #dfe6e9;
+}
+
+/*Spotlight*/
+.spotlight {
+	height: 650px;
+	display: block;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	background: #1e272e;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid black;
+}
+.spotlight-text {
+	text-align: left;
+	width: 40%;
+	min-width: 550px;
+	line-height: 1.6;
+	font-size: 1.10rem;
+	font-family: 'Cairo', sans-serif;
+	padding: 50px 50px 50px 75px;
+	position: absolute;
+	color: #dfe6e9;
+}
+
+.image-spotlight {
+	float: right;
+	height: 100%;
+	width: 72%;
+	background: linear-gradient(to left, rgba(30, 39, 46,0) ,rgba(30, 39, 46,0.1) 30%, rgba(30, 39, 46,0.2) 40%, rgba(30, 39, 46,1.0) 100%), url('https://wallpapercave.com/wp/wp2033360.jpg');
+	background-size: cover;
+}
+
+/*Figure*/
+#img-div{
+	display: block;
+	background-color: #b2bec3;
+	margin: 0 100px 0 100px;
+	padding: 2% 2% 0.1% 2%;
+	border: 1px solid black;
+}
+#image{
+	max-width: 100%;
+  	height: auto;
+  	margin: 0 auto;
+  	float: center;
+}
+#img-caption{
+	margin: 10px auto;
+	padding: 2px;
+	color: #1e272e;
+}
+
+/*Timeline*/
+.sub-title{
+	margin: 50px 0;
+  	text-align: center;
+  	font-size: 1.6em;
+  	color: #dfe6e9;
+}
+ul {
+  	max-width: 550px;
+  	margin: 0 auto 50px auto;
+  	text-align: left;
+  	line-height: 1.6;
+  	font-size: 1.1em;
+  	color: #dfe6e9;
+}
+li {
+  margin: 16px 0;
+}
+
+/*Discography*/
+#discography{
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    width: 70%;
+    margin: 0 auto 50px auto;
+}
+.coverlink{
+    display: block;    
+    overflow: hidden;
+    border-bottom: 0; 
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background: #dfe6e9;
+    border: 5px solid #dfe6e9;
+}
+.cover {
+	width: 100%;
+	margin: 0;
+	filter: grayscale(1);
+    transition: filter .2s ease-in;
+}
+.cover:hover {
+    filter: grayscale(0);
+}
+
+/*Quote*/
+blockquote {
+	margin: 4.625rem auto;
+	font-style: italic;
+	font-size: 1.2em;
+	max-width: 600px;
+	color: #dfe6e9;
+}
+
+/*Sources*/
+#sources{
+	max-width: 550px;
+  	margin: 0 auto 50px auto;
+  	text-align: left;
+  	line-height: 1.6;
+  	font-size: 1.1em;
+  	color: #dfe6e9;
+}
+#sources a{
+	color: #dfe6e9;
+}
+#sources a:hover {
+	color: #d63031;
+}
